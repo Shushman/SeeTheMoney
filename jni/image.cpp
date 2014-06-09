@@ -15,10 +15,10 @@
 #include "opencv2/calib3d/calib3d.hpp"
 #include "opencv2/opencv.hpp"
 
-#define WIDTH 480
-#define HEIGHT 320
-#define TRAIN_IMAGE 10
-#define VOCAB_SIZE 10000
+const int WIDTH = 480;
+const int HEIGHT = 320;
+const int TRAIN_IMAGE = 10;
+const int VOCAB_SIZE = 10000;
 
 using namespace cv;
 using namespace std;
